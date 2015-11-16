@@ -20,6 +20,7 @@
 		FF3D93951BF8AE190042B2D4 /* AppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3D93931BF8AE190042B2D4 /* AppViewController.m */; };
 		FF3D93971BF8B6A80042B2D4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3D93961BF8B6A80042B2D4 /* CoreBluetooth.framework */; };
 		FF3D93991BF8D6FF0042B2D4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF3D93981BF8D6FF0042B2D4 /* AudioToolbox.framework */; };
+		FF3D939B1BF8EF260042B2D4 /* biokneek_bottom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FF3D939A1BF8EF260042B2D4 /* biokneek_bottom.jpg */; };
 		FF9EC49D1BA498E500B6A210 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF9EC49C1BA498E500B6A210 /* main.m */; };
 		FF9EC4A61BA498E500B6A210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF9EC4A41BA498E500B6A210 /* Main.storyboard */; };
 		FF9EC4A81BA498E500B6A210 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9EC4A71BA498E500B6A210 /* Images.xcassets */; };
@@ -63,6 +64,7 @@
 		FF3D93941BF8AE190042B2D4 /* AppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppViewController.h; sourceTree = "<group>"; };
 		FF3D93961BF8B6A80042B2D4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		FF3D93981BF8D6FF0042B2D4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FF3D939A1BF8EF260042B2D4 /* biokneek_bottom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = biokneek_bottom.jpg; sourceTree = "<group>"; };
 		FF9EC4971BA498E500B6A210 /* BioKneek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioKneek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9EC49B1BA498E500B6A210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF9EC49C1BA498E500B6A210 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		FF2BF0171BA5DC5100D406CD /* assets */ = {
 			isa = PBXGroup;
 			children = (
+				FF3D939A1BF8EF260042B2D4 /* biokneek_bottom.jpg */,
 				FF2BF0181BA5DC6500D406CD /* settings.png */,
 				FF2BF0191BA5DC6500D406CD /* pressure.png */,
 			);
@@ -290,6 +293,7 @@
 				FF9EC4A61BA498E500B6A210 /* Main.storyboard in Resources */,
 				FF9EC4AB1BA498E500B6A210 /* LaunchScreen.xib in Resources */,
 				FF2BF01B1BA5DC6500D406CD /* pressure.png in Resources */,
+				FF3D939B1BF8EF260042B2D4 /* biokneek_bottom.jpg in Resources */,
 				FF9EC4A81BA498E500B6A210 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

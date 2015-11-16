@@ -18,19 +18,18 @@
     
     if (self)
     {
-        self.layer.cornerRadius = 10;
+        self.layer.cornerRadius = 30;
         self.layer.masksToBounds = YES;
     }
     
     return self;
 }
 
-- (void) updatePressure: (float) percentage {
+- (void) updatePressure: (float) alpha {
 //    float alpha = [percentage floatValue]/100;
-    float alpha = percentage;
     UIColor *pressureColor = [UIColor colorWithRed:1.0*alpha
-                                             green:1.0*(1-alpha)
-                                              blue:0.0
+                                             green:0.0
+                                              blue:1.0*(1-alpha)
                                              alpha:1.0];
     self.backgroundColor = pressureColor;
     [self setNeedsDisplay];

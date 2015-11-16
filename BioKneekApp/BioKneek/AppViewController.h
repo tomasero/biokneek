@@ -51,6 +51,7 @@
 @property (nonatomic, strong) CellView *cell2;
 @property (nonatomic, strong) CellView *cell3;
 @property (nonatomic, strong) CellView *cell4;
+@property (nonatomic, strong) CellView *cell5;
 
 //FUNCTIONAL
 @property (nonatomic, strong) NSMutableArray* traininigData;
